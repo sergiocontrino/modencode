@@ -1,7 +1,7 @@
-DATASOURCE_ROOT = 'http://intermine.modencode.org/'
+DATASOURCE_ROOT = 'http://intermine.modencode.org/query'
 INTERMINE_URL = 'http://intermine.modencode.org/'
-MODMINE_REL = [ '25','24','23','22','21','20','19','18','17','16' ]
-DATASET_SEARCH_URL = 'http://data.modencode.org/'
+MODMINE_REL = ['25', '24','23','22','21','20','19','18','17','16']
+DATASET_SEARCH_URL = 'http://data.modencode.org'
 FTP_URL = 'ftp://data.modencode.org'
 CLOUD_PAGE = 'modencode-cloud.html'
 GBROWSE_URL = 'http://modencode.oicr.on.ca/fgb2/gbrowse/'
