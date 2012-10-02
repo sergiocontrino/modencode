@@ -43,7 +43,7 @@ def file(first, second=None):
 def ranger():
     return redirect('http://ranger.sourceforge.net/')
     
-@static.route('/White.shtml')
+@static.route('/White.shtml/')
 def white():
-    return redirect('/white/')
-    
+    return redirect(url_for('static.page', name='white'))
+
