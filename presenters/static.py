@@ -42,3 +42,8 @@ def file(first, second=None):
 @static.route('/software/ranger/')
 def ranger():
     return redirect('http://ranger.sourceforge.net/')
+    
+@static.route('/White.shtml')
+def white():
+    return redirect('/white/')
+    
