@@ -42,8 +42,50 @@ def file(first, second=None):
 @static.route('/software/ranger/')
 def ranger():
     return redirect('http://ranger.sourceforge.net/')
-    
+
+# projects pages    
+@static.route('/Celniker.shtml/')
+def celniker():
+    return redirect(url_for('static.page', name='celniker'))
+
+@static.route('/Henikoff.shtml/')
+def henikoff():
+    return redirect(url_for('static.page', name='henikoff'))
+
+@static.route('/Karpen.shtml/')
+def karpen():
+    return redirect(url_for('static.page', name='karpen'))
+
+@static.route('/Lai.shtml/')
+def lai():
+    return redirect(url_for('static.page', name='lai'))
+
+@static.route('/Lieb.shtml/')
+def lieb():
+    return redirect(url_for('static.page', name='lieb'))
+
+@static.route('/MacAlpine.shtml/')
+def macalpine():
+    return redirect(url_for('static.page', name='macalpine'))
+
+@static.route('/Oliver.shtml/')
+def oliver():
+    return redirect(url_for('static.page', name='oliver'))
+
+@static.route('/Piano.shtml/')
+def piano():
+    return redirect(url_for('static.page', name='piano'))
+
+@static.route('/Snyder.shtml/')
+def snyder():
+    return redirect(url_for('static.page', name='snyder'))
+
+@static.route('/Waterston.shtml/')
+def waterston():
+    return redirect(url_for('static.page', name='waterston'))
+
 @static.route('/White.shtml/')
 def white():
     return redirect(url_for('static.page', name='white'))
+
 
